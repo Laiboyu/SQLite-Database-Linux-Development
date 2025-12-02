@@ -48,11 +48,8 @@ CC=aarch64-linux-gnu-gcc  AR=aarch64-linux-gnu-ar  ./configure --prefix=/home/jo
 
 
 編譯 makefile 的執行過程:
-![03](https://hackmd.io/_uploads/SJ9nJp61bl.png)
-![04](https://hackmd.io/_uploads/ry7T16TyZe.png)
 ![03](https://hackmd.io/_uploads/S1KEXM0k-g.png)
 ![04](https://hackmd.io/_uploads/SkOV7z0ybe.png)
-
 
 利用 configure 腳本在 makefile 檔案內部，所設定的交叉編譯設定。
 ![02](https://hackmd.io/_uploads/B1yoy66ybx.png)
