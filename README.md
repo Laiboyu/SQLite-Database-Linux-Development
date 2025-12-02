@@ -153,7 +153,7 @@ int main(int argc, char **argv)
     return 0;
 }
 ```
-
+---
 ### 編譯 sqliteAP 程式
 
 在編譯 sqliteAP 時所使用的相關 Command：
@@ -206,6 +206,7 @@ aarch64-linux-gnu-gcc sqliteAP1.c -o sqliteAP.exe \
 
 編譯完成後會得到 **sqliteAP.exe**，此執行檔可以與先前所建立的 SQLite 資料庫一起在 OrangePi 上使用。
 
+---
 
 ### 執行 sqlite3 
 在先前的步驟中，我們已經建立完成可以在 ARM 版上使用的 sqlite3 資料庫以及  spliteAP 的資料庫應用程式，接下來我們在 OrangePi 上執行 sqlite3 以及 spliteAP.exe，測試功能是否正常。
@@ -268,6 +269,8 @@ E002|Alice
 詳細的測試流程步驟如下圖所示，到目前為止我們已經可以確保 sqlite3 是可以正確的寫入資料並且進行讀取的。
 
 ![07](https://hackmd.io/_uploads/rkj0106y-e.png)
+
+---
 
 ### 執行 sqliteAP
 
